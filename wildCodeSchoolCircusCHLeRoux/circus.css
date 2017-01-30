@@ -1,0 +1,129 @@
+/*FEUILLE DE STYLE*/
+@font-face {
+    font-family: 'DESTROY_';
+    src: url('DESTROY_.ttf')format('truetype');
+}
+
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    position: relative;
+    height: auto;;
+    background-color: black;
+    top: 0px;
+}
+
+header h1{
+
+    font-family: 'DESTROY_';
+    font-size: 7em;
+    text-align: center;
+    Text-font: 'Comic Sans MS';
+    color: yellow;
+}
+
+body{
+    
+    background-image: url(images/circus-fire.jpg);
+}
+
+header h1.blinking { color: red; }
+
+#conteneur{
+
+    font-family: Verdana;
+    font-weight: bold;
+    background-color: black;    
+    padding: 5px;
+    padding-right: 5px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap
+}
+
+#element1{
+
+ margin-top: 7px;
+ width: 30%;
+ border: 3px solid black;
+ padding:10px 10px;
+ background-color: darkcyan;
+}
+
+#element2{
+
+ margin-top: 7px;
+ width: 30%;
+ border: 3px solid black;
+ padding:10px 10px;
+ background-color: red;
+}
+
+#element3{
+
+ margin-top: 7px;
+ width: 30%;
+ border: 3px solid black;
+ padding:10px 10px;
+ background-color: green;
+}
+
+#element1 h2 {
+
+
+  text-align: center;
+  color: yellow;
+  font-size: 2.5em;
+}
+
+#element2 h2{
+
+
+  text-align: center;
+  color: yellow;
+  font-size: 2.5em;
+}
+
+#element3 h2{
+
+
+  text-align: center;
+  color: yellow;
+  font-size: 2.5em;
+}
+
+img{
+
+    float: left;
+}
+
+footer{
+
+    text-align: center;
+    background-color: darkorange;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0%;
+    height: auto;
+    font-family: verdana;
+}
+/*****************************************/
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+footer {position: absolute; bottom: 0; left: 0; right: 0}
+
+
